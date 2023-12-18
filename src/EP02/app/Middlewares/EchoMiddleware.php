@@ -9,7 +9,7 @@ class EchoMiddleware extends Middleware
 {
     public function handle(Request $request)
     {
-        echo "This is echo middleware";
+        echo "\nThis is echo middleware.";
         parent::handle($request);
     }
 }

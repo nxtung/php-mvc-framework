@@ -9,7 +9,7 @@ class AnotherMiddleware extends Middleware
 {
     public function handle(Request $request)
     {
-        echo "another";
+        echo "\nAnother Middleware.";
         parent::handle($request);
     }
 }
