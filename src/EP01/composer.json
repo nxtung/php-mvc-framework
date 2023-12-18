@@ -1,0 +1,22 @@
+{
+    "name": "tungnx/mvc-framework",
+    "description": "mvc framework in php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "bootstrap/"
+        },
+        "files": [
+            "bootstrap/helpers/app.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "tung",
+            "email": "tungatinternet@gmail.com"
+        }
+    ],
+    "require": {}
+}

@@ -5,7 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "MVC\\": "src/EP00"
+            "MVC\\": "src/"
         }
     },
     "authors": [
