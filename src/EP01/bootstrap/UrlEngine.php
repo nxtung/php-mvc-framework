@@ -10,6 +10,6 @@ trait UrlEngine
 
     public function path()
     {
-        return $_SERVER['REQUEST_URI'];
+        return strtok($_SERVER["REQUEST_URI"], '?');
     }
 }
